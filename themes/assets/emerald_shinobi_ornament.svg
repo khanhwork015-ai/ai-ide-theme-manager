@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 38" fill="none">
+  <defs>
+    <linearGradient id="bladeL" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#94a3b8"/>
+      <stop offset="85%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="bladeR" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#94a3b8"/>
+      <stop offset="85%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="slashArc" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#4ade80" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#bbf7d0" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="emeraldGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Crescent Sword Slash Aura -->
+  <path d="M8 26 Q64 2 120 22 Q64 10 8 26 Z" fill="url(#slashArc)" filter="url(#emeraldGlow)"/>
+  <path d="M18 30 Q64 11 112 27" stroke="#4ade80" stroke-width="1" stroke-opacity="0.65" stroke-dasharray="4 3"/>
+
+  <!-- Left Katana (angled top-right) -->
+  <g filter="url(#emeraldGlow)">
+    <path d="M36 31 L84 6 L88 8 L39 33 Z" fill="url(#bladeL)"/>
+    <rect x="33" y="29" width="7" height="2.4" rx="1" transform="rotate(-32 33 29)" fill="#22c55e"/>
+    <path d="M26 35 L35 30 L37 33 L28 37 Z" fill="#090d0b" stroke="#4ade80" stroke-width="0.8"/>
+  </g>
+
+  <!-- Right Katana (angled top-left) -->
+  <g filter="url(#emeraldGlow)">
+    <path d="M92 31 L44 6 L40 8 L89 33 Z" fill="url(#bladeR)"/>
+    <rect x="88" y="25" width="7" height="2.4" rx="1" transform="rotate(32 88 25)" fill="#22c55e"/>
+    <path d="M102 35 L93 30 L91 33 L100 37 Z" fill="#090d0b" stroke="#4ade80" stroke-width="0.8"/>
+  </g>
+
+  <!-- Floating Emerald Sparks -->
+  <polygon points="64,3 66,7 64,11 62,7" fill="#bbf7d0" filter="url(#emeraldGlow)"/>
+  <circle cx="24" cy="18" r="1.3" fill="#4ade80"/>
+  <circle cx="104" cy="17" r="1.3" fill="#4ade80"/>
+</svg>
