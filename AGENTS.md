@@ -1,6 +1,6 @@
 # AGENTS.md — AI Agent Self-Installation & Theme Guide
 
-This repository is **Antigravity Theme Manager**, designed to be installed, customized, and maintained automatically by AI coding agents (**Codex**, **Claude Code**, **Antigravity**, **Cursor**, **Gemini CLI**).
+This repository is **AI IDE Theme Manager**, designed to be installed, customized, and maintained automatically by AI coding agents (**Codex**, **Claude Code**, **Cursor**, **Gemini CLI**, **Antigravity**).
 
 ## 1. Zero-Touch Installation Workflow (Run when user asks to install)
 

@@ -1,9 +1,9 @@
-# Antigravity Theme Manager (AI Agent Skill)
+# AI IDE Theme Manager (Universal Agent Skill)
 
-Turn any wallpaper, prompt, or color palette into a live, 60fps custom theme inside **Antigravity** — packaged with `AGENTS.md`, `CLAUDE.md`, and `SKILL.md` so **Claude Code**, **Codex**, **Cursor**, or **Antigravity** can self-install and customize it from a single prompt.
+Turn any wallpaper, prompt, or color palette into a live, 60fps custom theme inside **Antigravity** and compatible AI IDEs — packaged with `AGENTS.md`, `CLAUDE.md`, and `SKILL.md` so **Claude Code**, **Codex**, **Cursor**, **Gemini CLI**, or **Antigravity** can self-install and customize it from a single prompt.
 
-> **One-Prompt AI Setup:** Copy this repository URL, paste it to **Claude Code**, **Codex**, or **Antigravity**, and say:
-> *"Install and set up Antigravity Theme Manager from this repo for me."*
+> **One-Prompt AI Setup:** Copy this repository URL, paste it to **Claude Code**, **Codex**, **Cursor**, or **Antigravity**, and say:
+> *"Install and set up AI IDE Theme Manager from this repo for me."*
 
 ## Features
 
